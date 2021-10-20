@@ -272,30 +272,31 @@ if (promedio >= 7){
 Dado 3 números enteros, determinar cual de ellos es el mayor, tenga en cuenta que los números
 pueden ser iguales  */
 
-/*var num1 = prompt("Ingrese numero 1: ");
-var num2 = prompt("Ingrese numero 2: ");
-var num3 = prompt("Ingrese numero 3: ");
+var valormaximo = 0
 
-numero1=parseInt(num1);
-numero2=parseInt(num2);
-numero3=parseInt(num3);
+ function valormax(){
+ var var1 = parseInt(prompt("ingrese valor 1"))
+     if (var1 > valormaximo){
+         valormaximo= var1
+     } 
 
-
- if (numero2 > numero3){
-    if (numero2 > numero1){
-        console.log(" El mayor es el num 2");
-    }else {
-        console.log("El mayor es el num");
-
-        }
-    } else  if (numero3 > numero1) {
-    console.log("El mayor es el num")
-}else{
-    console.log("El mayor es el num")
-    
-}
- */
+    var var2 = parseInt(prompt("ingrese valor 2"))
+    if (var2 > valormaximo){
  
+         valormaximo= var2
+     
+ }
+    var var3 = parseInt(prompt("ingrese valor 3"))
+    if (var3 > valormaximo){
+ 
+         valormaximo= var3
+     
+ }
+ console.log("el valor maximo es " + valormaximo)
+ 
+
+ }
+ valormax()
 
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
